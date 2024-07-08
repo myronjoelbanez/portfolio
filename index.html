@@ -1,0 +1,1347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myron Joel Bañez - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="assets/images/thumbs.svg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/grad1.jpg" alt="Myron Banez" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Myron Banez">Myron Joel Bañez</h1>
+
+          <h2 class="title">Transportation Planner </h2>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:myronjoelbanez@gmail.com" class="contact-link">myronjoelbanez@gmail.com</a>
+            </div>
+
+          </li>
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>San Francisco<br>Bay Area</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/myronbanez/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/myronbanez" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Graduate of the University of Pennsylvania Weitzman School of Design's Master of City Planning program.
+          </p>
+
+          <p>
+            I solve problems affecting the built and natural environment via urban planning + geospatial data science.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/city.svg
+                " alt="planning icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">City Planning</h4>
+
+                <p class="service-item-text">
+                  Researching, evaluating, and proposing new ideas for complex urban issues. 
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/map.svg" alt="mapping icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mapping</h4>
+
+                <p class="service-item-text">
+                  Spatializing the problems, solutions, and ideas for the built and natural environment in GIS and Javascript.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/coding.svg" alt="coding icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Science</h4>
+
+                <p class="service-item-text">
+                  Using R and Python to create models, algorithms, and analyses for all things geospatial.
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/graphic.svg" alt="graphic icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Design</h4>
+
+                <p class="service-item-text">
+                  Learning and trying to improve my urban design and 3D modeling skills in SketchUp and Adobe. 
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+ <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+ -->
+
+        <!--
+          - testimonials modal
+        -->
+
+        <!-- <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div> -->
+
+        <!--
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Pennsylvania, Weitzman School of Design</h4>
+
+              <span>2021 - 2023</span>
+
+              <p class="timeline-text">
+                Master of City Planning
+              </p>
+              <p class="timeline-text">
+                Certificate in Geographic Information Systems & Spatial Analysis
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Seattle University, Albers School of Business & Economics</h4>
+
+              <span>2017 - 2021</span>
+
+              <p class="timeline-text">
+                Bachelor of Arts in International Economic Development
+              </p>
+              <p class="timeline-text">
+                Minor in Public Policy
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Transportation Planner</h4>
+              <h4 class="h4 timeline-item-title">Fehr & Peers | Walnut Creek, CA</h4>
+              <span>June 2023</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Teaching Asssistant</h4>
+              <h4 class="h4 timeline-item-title">University of Pennsylvania | Philadelphia, PA</h4>
+              <span>September 2022 - May 2023</span>
+              <p>Master of Urban Spatial Analytics | MUSA 5080: Public Policy Analytics</p>
+              <p>Master of City Planning | CPLN 6750: Land Use & Environmental Modeling</p>
+              <p>Master of City Planning | CPLN 6290: Designing Living Heritage</p>
+              <p>Master of Social Policy & Practice | MSSP 7300: Community Mapping</p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Planner II</h4>
+              <h4 class="h4 timeline-item-title">Alta Planning + Design | Philadelphia, PA</h4>
+              <span>September 2022 - December 2022</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Planning Intern</h4>
+              <h4 class="h4 timeline-item-title">Alta Planning + Design | Oakland, CA</h4>
+              <span>June 2022 —  August 2022</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Research Assistant</h4>
+              <h4 class="h4 timeline-item-title">Econsult Solutions Inc. | Philadelphia, PA</h4>
+              <span>January 2022 —  May 2022</span>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Portfolio Analysis & Reporting Intern</h4>
+              <h4 class="h4 timeline-item-title">Philadelphia Industrial Development Corporation | Philadelphia, PA</h4>
+              <span>October 2021 — January 2022</span>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h4 class="h4">City Planning</h4>
+              </div>
+              <div class="title-wrapper">
+                <h5 class="h5">
+                <ul>
+                  <li> - Transportation Planning: Level of Traffic Stress Analysis, Right-of-Way Width Analysis</li>
+                  <li> - Economic Development: Demographic Analysis, Labor Market Analysis, Economic Change Analysis </li>
+                  <li> - Quantitative: Site Selection, Demographic Analysis </li>
+                  <li> - Communication: Charrettes, Community Engagement, Memo and Grant Writing </li>
+                </ul>
+              </h5>
+              </div>
+
+              <div class="title-wrapper">
+                <h4 class="h4">Geospatial Analysis</h4>
+              </div>
+              <div class="title-wrapper">
+                <h5 class="h5">
+                <ul>
+                  <li> - R Studio: Predictive Modeling, Feature Engineering, Machine Learning, Spatial Statistics</li>
+                  <li> - Python: Spatial Statistics</li>
+                  <li> - SQL: Spatial SQL</li>
+                  <li> - ArcGIS: Pro (Vector + Raster), Online Suite, Model Building</li>
+                </ul>
+              </h5>
+              </div>
+
+              <div class="title-wrapper">
+                <h4 class="h4">Programming</h4>
+              </div>
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  <ul>
+                    <li> - R Studio</li>
+                    <li> - Python</li>
+                    <li> - Javascript</li>
+                    <li> - SQL</li>
+                    <li> - Web Development: CSS, HTML</li>
+                  </ul>
+                </h5>
+              </div>
+              
+              <div class="title-wrapper">
+                <h4 class="h4">Urban Design & 3D Modeling</h4>
+              </div>
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  <ul>
+                    <li> - Adobe: InDesign, Illustrator, Lightroom </li>
+                    <li> - SketchUp </li>
+                  </ul>
+                </h5>
+              </div>
+     
+              <div class="title-wrapper">
+                <h4 class="h4">Tools Used</h4>
+              </div>
+              <div class="title-wrapper">
+                <h5 class="h5">
+                  <ul>
+                    <li> - Data packages: R (tidycensus, tidyverse, tigris, raster), Python (NumPy, Pandas, Geopandas), Javascript (node.js), SQL (PostgreSQL, MySQL)</li>
+                    <li> - Geospatial API: U.S. Census, Carto, Leaflet, Mapbox</li>
+                    <li> - Producitvity Suite: Microsoft Office Suite, Google Suite, Miro </li>
+                    <li> - Database management: Google Cloud, Bigquery, Salesforce CRM, Surveymonkey </li>
+                  </ul>
+                </h5>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Planning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Policy</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>GIS</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>R</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Python</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Javascript</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Planning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>GIS</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>R</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Python</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Javascript</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="planning">
+              <a href="assets/files/pedernales.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/pedernales.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pedernales Complete Streets Redesign</h3>
+
+                <p class="project-category">Planning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="r">
+              <a href="assets/files/Phila_Fire_rmd_final.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/fire.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Understanding and Forecasting The Community Impacts of Structure Fire</h3>
+
+                <p class="project-category">R</p>
+
+              </a>
+            </li> 
+
+            <li class="project-item  active" data-filter-item data-category="policy">
+              <a href="assets/files/thesis.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/thesis.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Urban Bayanihan: The Role of Ethnic Enclaves in The Filipino Diaspora</h3>
+
+                <p class="project-category">Policy</p>
+
+              </a>
+            </li>
+            
+            <li class="project-item  active" data-filter-item data-category="r">
+              <a href="assets/files/CPLN675-FinalRMD.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Pittsburgh.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pittsburgh Urban Growth Model</h3>
+
+                <p class="project-category">R</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="planning">
+              <a href="assets/files/c3.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/c3.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Seattle Streetcar Center City Connector</h3>
+
+                <p class="project-category">Planning</p>
+
+              </a>
+            </li>            
+
+            <li class="project-item  active" data-filter-item data-category="planning">
+              <a href="assets/files/629.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/629.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Community Education Center Place-Shaping Proposal</h3>
+
+                <p class="project-category">Planning</p>
+
+              </a>
+            </li> 
+
+            <li class="project-item  active" data-filter-item data-category="python">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ev.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://miacherayil124.github.io/final-project-550/">Electric Vehicles: Exploring & Visualizing Sentiments and Infrastructure Deployment in the US & California</a></h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="planning">
+              <a href="assets/files/ImprovementPlan.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ImprovementPlan.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Lancaster Avenue Bike + Ped Improvement Plan</h3>
+
+                <p class="project-category">Planning</p>
+
+              </a>
+            </li> 
+
+            <li class="project-item  active" data-filter-item data-category="javascript">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/filipinotown.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://github.com/myronbanez/final-project">Historic Seattle Filipinotown</a></h3>
+
+                <p class="project-category">Javascript</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="javascript">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/firejs.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://myronbanez.github.io/MUSA509_Final/site/search.html">Spatial Summary of Philadelphia Residential Property Fires</a></h3>
+
+                <p class="project-category">Javascript</p>
+
+              </a>
+            </li>    
+
+            <li class="project-item  active" data-filter-item data-category="r">
+              <a href="assets/files/Final.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/FinalImage.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Predicting Peak</h3>
+
+                <p class="project-category">R</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="planning">
+              <a href="assets/files/SAP2.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sap2.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Economic Travel Trend Analysis</h3>
+
+                <p class="project-category">Planning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="policy">
+              <a href="assets/files/Recidivism.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/RecidivismImage.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Equitable Recidivism Algorithm</h3>
+
+                <p class="project-category">Policy</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bldgdemo.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://myronbanez.github.io/MUSA550-Philadelphia-Building-Demolitions/">Philadelphia Building Demolitions</a></h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="r">
+              <a href="assets/files/Flood.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/calgary.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Portland Flood Prediction Model</h3>
+
+                <p class="project-category">R</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="python">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/crash.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://myronbanez.github.io/MUSA550-Crash-Index/">Northern Liberties OSMnx Crash Index</a></h3>
+
+                <p class="project-category">Python</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="r">
+              <a href="assets/files/labormarket2.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/labormarket.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Los Angeles Labor Markets</h3>
+
+                <p class="project-category">R</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="r">
+              <a href="assets/files/Policing.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/PolicingImage.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Predictive Policing</h3>
+
+                <p class="project-category">R</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="gis">
+              <a href="assets/files/HW1_Myron.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Green.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">PHL Green Commercial Corridors</h3>
+
+                <p class="project-category">GIS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="r">
+              <a href="assets/files/Housing.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/HCDImage.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tax Credit Program Evaluation</h3>
+
+                <p class="project-category">R</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="gis">
+              <a href="assets/files/Cagayan Memo.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Cagayan.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Flood Inundation Modeling</h3>
+
+                <p class="project-category">GIS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="r">
+              <a href="assets/files/BusinessStructureLab.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bizstructure.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Los Angeles Business Structure</h3>
+
+                <p class="project-category">R</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="planning">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Lancaster.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title"><a href="https://storymaps.arcgis.com/stories/bac6ac70a4424ebe88a09ae1273bcaa8">Storyscaping Lancaster</a></h3>
+
+                <p class="project-category">Planning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="gis">
+              <a href="assets/files/CR.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/CRImage.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Gulf of Nicoya Shrimp Farm</h3>
+
+                <p class="project-category">GIS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="r">
+              <a href="assets/files/Midterm.html">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/MidtermImage.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Zillow Housing Algorithm</h3>
+
+                <p class="project-category">R</p>
+
+              </a>
+            </li> 
+
+            <li class="project-item  active" data-filter-item data-category="gis">
+              <a href="assets/files/Gun.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/GunImage.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Predicting Philly Gun Violence</h3>
+
+                <p class="project-category">GIS</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="policy">
+              <a href="assets/files/cultural_econ.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cultural_econ.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cultural Identity Through Economic Development</h3>
+
+                <p class="project-category">Policy</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="policy">
+              <a href="assets/files/comm_dev.pdf">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/comm_dev.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Community Displaced By Development</h3>
+
+                <p class="project-category">Policy</p>
+
+              </a>
+            </li>
+
+
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+<!-- 
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+ -->
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
